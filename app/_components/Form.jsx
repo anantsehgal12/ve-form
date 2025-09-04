@@ -14,7 +14,7 @@ import { IndianRupee } from 'lucide-react';
 function Form() {
   return (
     <form suppressHydrationWarning action="https://formsubmit.co/vs@anantsales.in" method="post" className='flex flex-col w-full gap-[1rem] p-6'>
-     <div className='inline-flex gap-3'><User /><label htmlFor="1"><b>Full Nam</b></label></div>
+     <div className='inline-flex gap-3'><User /><label htmlFor="1"><b>Full Name</b></label></div>
       <input type="text" name="Name" id="1" placeholder="John Adams" required className='p-[0.9rem] bg-transparent border rounded-[5px] w-full'/>
 
       <div className='inline-flex gap-3'><Earth /><label htmlFor="cmpany"><b>Company Name</b></label></div>
@@ -103,3 +103,4 @@ function Form() {
 
 
 export default Form
+
