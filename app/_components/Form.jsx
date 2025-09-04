@@ -9,6 +9,7 @@ import { List } from 'lucide-react';
 import { ListOrdered } from 'lucide-react';
 import { MessageSquare } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { IndianRupee } from 'lucide-react';
 
 function Form() {
   return (
@@ -58,7 +59,7 @@ function Form() {
               <option className='bg-background color-foreground'>Premium Gift & Combos</option>
             </li>
             <li>
-              <option className='bg-background color-foreground'>Dryfruit Combos and Packaged Food Items</option>
+              <option className='bg-background color-foreground'>Dryfruit Combos and Branded Gift Hampers</option>
             </li>
             <li>
               <option className='bg-background color-foreground'>Home Appliances</option>
@@ -80,6 +81,18 @@ function Form() {
           <option className='bg-background color-foreground'>500 and above</option>
         </select>
       </div>
+      <div className='inline-flex gap-3'><IndianRupee /><label htmlFor="1"><b>Average Product Price</b></label></div>
+      <div className="sel">
+        <select name="Average Product Price" className='p-[0.9rem] bg-transparent border rounded-[5px] w-full' defaultValue="">
+          <option className='bg-background color-foreground' value="" disabled>Select Average Product Price</option>
+          <option className='bg-background color-foreground'>Under 250</option>
+          <option className='bg-background color-foreground'>251-500</option>
+          <option className='bg-background color-foreground'>501-1500</option>
+          <option className='bg-background color-foreground'>1501-3000</option>
+          <option className='bg-background color-foreground'>3001-4999</option>
+          <option className='bg-background color-foreground'>5000 and Above</option>
+        </select>
+      </div>
       <div className='inline-flex gap-3'><MessageSquare /><label htmlFor="1"><b>Describe Your Product Requirement</b></label></div>
         <textarea name="Describe Your Product Requirement" placeholder="Other than this, I want..." id="textarea" className='resize-none p-[0.9rem] bg-transparent border rounded-[5px] h-[6rem] w-full'></textarea>
 
@@ -90,4 +103,3 @@ function Form() {
 
 
 export default Form
-
