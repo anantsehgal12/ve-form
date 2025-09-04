@@ -1,0 +1,93 @@
+@import url('https://fonts.cdnfonts.com/css/norwester');
+
+:root{
+    --p1: #fff;
+    --s1: #000;
+    --b1: #000;
+    --b2: #fff;
+}
+
+.dark-theme{
+    --s1: #fff;
+    --p1: #000;
+    --b2: #000;
+    --b1: #fff;
+}
+
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1rem;
+}
+
+input,select,textarea{
+    padding: 0.9rem;
+    background: transparent;
+    border: 1px solid var(--s1);
+    border-radius: 5px;
+}
+textarea{
+    height: 6rem;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+}
+button{
+    cursor: pointer;
+    background: var(--b1);
+    color: var(--b2);
+    font-size: 20px;
+    font-family: 'Norwester';
+    padding: 10px;
+    width: 1000px;
+    border-radius: 10px;
+}
+button:hover{
+    background: white;
+    color: black;
+    border: 2px solid black;
+    transition: 0.3s;
+}
+i{
+    margin-right: 25px;
+}
+p{
+    color: var(--p1);
+}
+
+select{
+    font-family: 'Norwester';
+}
+
+label{
+    padding-left: 15px;
+    font-family: 'Norwester';
+}
+
+.title{
+    display: flex;
+    justify-content: space-between;
+}
+#icon{
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+input{
+    color: var(--b1);
+}
+
+::placeholder{
+    color: var(--b1);
+    font-family: 'Norwester';
+}
+.sel select{
+    color: var(--b1);
+    width: 100%;
+}
+select option{
+    color: var(--b1);
+}
