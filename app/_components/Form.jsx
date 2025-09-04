@@ -84,7 +84,7 @@ function Form() {
       <div className='inline-flex gap-3'><IndianRupee /><label htmlFor="1"><b>Average Product Price</b></label></div>
       <div className="sel">
         <select name="Average Product Price" className='p-[0.9rem] bg-transparent border rounded-[5px] w-full' defaultValue="">
-          <option className='bg-background color-foreground' value="" disabled>Select Average Product Price</option>
+          <option className='bg-background color-foreground' value="" disabled>Select Average Product Price [INR ₹]</option>
           <option className='bg-background color-foreground'>Under 250</option>
           <option className='bg-background color-foreground'>251-500</option>
           <option className='bg-background color-foreground'>501-1500</option>
@@ -103,4 +103,5 @@ function Form() {
 
 
 export default Form
+
 
