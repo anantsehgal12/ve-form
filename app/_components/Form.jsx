@@ -64,7 +64,7 @@ function Form() {
               <option className='bg-background color-foreground'>Home Appliances</option>
             </li>
             <li>
-              <option className='bg-background color-foreground'>For Other Specific Requirements, please click <a href="#textarea">here</a> </option>
+              <option className='bg-background color-foreground'>For Other Specific Requirements, please specify below </option>
             </li>
           </ul>
         </select>
@@ -90,3 +90,4 @@ function Form() {
 
 
 export default Form
+
