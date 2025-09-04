@@ -37,40 +37,34 @@ function Form() {
               <option value="" disabled className='bg-background color-foreground'>Select Category</option>
             </li>
             <li>
-              <option className='bg-background color-foreground'>Rakhi Combos</option>
+              <option className='bg-background color-foreground'>Daily Utilities</option>
             </li>
             <li>
-              <option className='bg-background color-foreground'>Decorative Dryfruit Boxes</option>
-            </li>
-            <li>
-              <option className='bg-background color-foreground'>Lamp Collection</option>
-            </li>
-            <li>
-              <option className='bg-background color-foreground'>Idol Products</option>
-            </li>
-            <li>
-              <option className='bg-background color-foreground'>Glassware Collection</option>
-            </li>
-            <li>
-              <option className='bg-background color-foreground'>T-Light Collection</option>
-            </li>
-            <li>
-              <option className='bg-background color-foreground'>Metal Products</option>
-            </li>
-            <li>
-              <option className='bg-background color-foreground'>Exclusive Bag Zone</option>
-            </li>
-            <li>
-              <option className='bg-background color-foreground'>Wooden Products</option>
+              <option className='bg-background color-foreground'>Decorative Idol and Lightning Collection</option>
             </li>
             <li>
               <option className='bg-background color-foreground'>Leather Products</option>
             </li>
             <li>
-              <option className='bg-background color-foreground'>Other Products</option>
+              <option className='bg-background color-foreground'>Professional Gifting</option>
             </li>
             <li>
-              <option className='bg-background color-foreground'>Only For Bulk Orders</option>
+              <option className='bg-background color-foreground'>International Brands</option>
+            </li>
+            <li>
+              <option className='bg-background color-foreground'>Promotional Products</option>
+            </li>
+            <li>
+              <option className='bg-background color-foreground'>Premium Gift & Combos</option>
+            </li>
+            <li>
+              <option className='bg-background color-foreground'>Dryfruit Combos and Packaged Food Items</option>
+            </li>
+            <li>
+              <option className='bg-background color-foreground'>Home Appliances</option>
+            </li>
+            <li>
+              <option className='bg-background color-foreground'>For Other Specific Requirements, please click <a href="#textarea">here</a> </option>
             </li>
           </ul>
         </select>
@@ -80,19 +74,14 @@ function Form() {
       <div className="sel">
         <select name="Quantity" className='p-[0.9rem] bg-transparent border rounded-[5px] w-full' defaultValue="">
           <option className='bg-background color-foreground' value="" disabled>Select Quantity</option>
-          <option className='bg-background color-foreground'>10-50</option>
-          <option className='bg-background color-foreground'>51-100</option>
-          <option className='bg-background color-foreground'>101-150</option>
-          <option className='bg-background color-foreground'>151-200</option>
-          <option className='bg-background color-foreground'>201-250</option>
-          <option className='bg-background color-foreground'>251-300</option>
-          <option className='bg-background color-foreground'>301-350</option>
-          <option className='bg-background color-foreground'>351-400</option>
-          <option className='bg-background color-foreground'>400 and above</option>
+          <option className='bg-background color-foreground'>51-150</option>
+          <option className='bg-background color-foreground'>151-300</option>
+          <option className='bg-background color-foreground'>301-499</option>
+          <option className='bg-background color-foreground'>500 and above</option>
         </select>
       </div>
       <div className='inline-flex gap-3'><MessageSquare /><label htmlFor="1"><b>Describe Your Product Requirement</b></label></div>
-        <textarea name="Describe Your Product Requirement" placeholder="Other than this, I want..." className='resize-none p-[0.9rem] bg-transparent border rounded-[5px] h-[6rem] w-full'></textarea>
+        <textarea name="Describe Your Product Requirement" placeholder="Other than this, I want..." id="textarea" className='resize-none p-[0.9rem] bg-transparent border rounded-[5px] h-[6rem] w-full'></textarea>
 
         <div className="w-full"><Button asChild><button type="submit" className="cursor-pointer w-full text-2xl"> Send</button></Button></div>
         </form>
