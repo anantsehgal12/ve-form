@@ -16,14 +16,9 @@ function Form() {
      <div className='inline-flex gap-3'><User /><label htmlFor="1"><b>Full Nam</b></label></div>
       <input type="text" name="Name" id="1" placeholder="John Adams" required className='p-[0.9rem] bg-transparent border rounded-[5px] w-full'/>
 
-      <div className='inline-flex gap-3'><Earth /><label htmlFor="1"><b>Country Code</b></label></div>
-      <div className="sel w-full">
-        <select name="Country Code" className='p-[0.9rem] bg-transparent border rounded-[5px] w-full' defaultValue="">
-          <option value="" disabled className='bg-background color-foreground'>Select Code</option>
-          <option className='bg-background color-foreground'>India [+91]</option>
-        </select>
-      </div>
-
+      <div className='inline-flex gap-3'><Earth /><label htmlFor="cmpany"><b>Company Name</b></label></div>
+      <input type="text" name="Company Name" id="cmapny" placeholder="ABC Pvt. Ltd" required className='p-[0.9rem] bg-transparent border rounded-[5px] w-full'/>
+      
       <div className='inline-flex gap-3'><Phone /><label htmlFor="1"><b>Contact No.</b></label></div>
 
       <input type="tel" name="Mobile No." placeholder="[+1 (415) 867-5309]" required className='p-[0.9rem] bg-transparent border rounded-[5px] w-full'/>
@@ -103,5 +98,6 @@ function Form() {
         </form>
   )
 }
+
 
 export default Form
